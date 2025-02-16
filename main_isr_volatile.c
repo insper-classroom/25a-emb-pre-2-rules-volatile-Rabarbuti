@@ -1,7 +1,7 @@
 #include "asf.h"
 
 volatile g_cnt = 0;
-int f_btn = 0; // deveria ser volatile
+volatile int f_btn = 0; // deveria ser volatile
 
 // ISR
 void btn_callback(void) {
